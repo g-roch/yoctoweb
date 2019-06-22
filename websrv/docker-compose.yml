@@ -1,0 +1,38 @@
+version: "3.1"
+services:
+  yoctoweb_web:
+    build: .
+    secrets:
+      - db_user_password
+    ports:
+      - "8080:80"
+    links:
+      - yoctoweb_db:db
+    volumes:
+      - ../:/var/www/html/
+
+  yoctoweb_db:
+    image: mariadb
+    secrets:
+      - db_user_password
+    restart: always
+    volumes:
+      - ../sql/:/docker-entrypoint-initdb.d
+    environment:
+      MYSQL_USER: yoctoweb
+      MYSQL_PASSWORD_FILE: /run/secrets/db_user_password
+      MYSQL_DATABASE: yoctoweb
+      MYSQL_RANDOM_ROOT_PASSWORD: 1
+    command: ['mysqld', '--character-set-server=utf8mb4', '--collation-server=utf8mb4_unicode_ci']
+
+  yoctoweb_pma:
+    image: 'phpmyadmin/phpmyadmin'
+    links:
+      - yoctoweb_db:db
+    ports:
+      - "9001:80"
+secrets:
+  db_user_password:
+    file: db_user_password.txt
+
+

@@ -32,6 +32,8 @@ This project use a gitlab issues at https://gitlab.com/g-roch/yoctoweb/issues
 ### For users
  - PHP (tested with 7.3, but it possible to work from 7.1)
  - MySQL/MariaDB
+ - Docker (if you need start the server in local) 
+   [websrv/README.md](websrv/README.md)
 
 ### Sub-software (included in this repository)
  - css Bootstrap 4.3.1
