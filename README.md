@@ -15,6 +15,9 @@ This application isn't official.
 ## User documentation
 See wiki page at https://gitlab.com/g-roch/yoctoweb/wikis/
 
+## Bug tracking
+This project use a gitlab issues at https://gitlab.com/g-roch/yoctoweb/issues
+
 ## Features
 ### WORK IN PROGRESS (isn't now usable)
  - Statistics and graphics
