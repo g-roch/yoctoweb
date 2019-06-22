@@ -29,11 +29,22 @@ This project use a gitlab issues at https://gitlab.com/g-roch/yoctoweb/issues
  - Write a [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## Dependance
-### Sub-software
+### For users
+ - PHP (tested with 7.3, but it possible to work from 7.1)
+ - MySQL/MariaDB
+
+### Sub-software (included in this repository)
  - css Bootstrap 4.3.1
  - php Yoctolib 35652
  - js Yoctolib 35708
 
-## For Developper
- - When update www/static/ you must run `make integrity-constants.php` in root
+### For Developper
+ - openssl (when update [www/static](www/static))
+ - make (when update [www/static](www/static))
+
+#### Developper action
+ *This section is to move to other good place*
+
+ - When update [www/static](www/static) you must run 
+   `make integrity-constants.php` in root
    of project.
