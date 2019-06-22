@@ -7,10 +7,13 @@ This application isn't official.
 
 ## License
  - My work is under AGPL.
- - yoctolib ((lib/yocto/)[lib/yocto/] and 
-     (www/static/js/yocto/)[www/static/js/yocto/]) is under other license not 
-     free (see (lib/yocto/README.md)[lib/yocto/README.md] and 
-     (www/static/js/yocto/LICENSE.txt)[www/static/js/yocto/LICENSE.txt]).
+ - yoctolib ([lib/yocto/](lib/yocto/) and 
+   [www/static/js/yocto/](www/static/js/yocto/)) is under other license not 
+   free (see [lib/yocto/README.md](lib/yocto/README.md) and 
+   [www/static/js/yocto/LICENSE.txt](www/static/js/yocto/LICENSE.txt)).
+
+## User documentation
+See wiki page at https://gitlab.com/g-roch/yoctoweb/wikis/
 
 ## Features
 ### WORK IN PROGRESS (isn't now usable)
