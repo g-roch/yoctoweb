@@ -8,6 +8,7 @@ mb_http_output('UTF-8');
 //const DB_USER = 'myUser';
 //const DB_PW = 'myPwd';
 const DB_OPT = [];
+const DB_PREFIX = 'yw_';
 
 // Webmaster user need to correspond to a user of DB. 
 //const WEBMASTER_USER = 'webmaster';
