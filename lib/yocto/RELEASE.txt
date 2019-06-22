@@ -1,0 +1,7 @@
+PHP v1.10.35652
+
+- Programming library use WebSocket by default
+- Add support for RangeFinder timeframe and quality
+- Add getting started example for Yocto-Pressure
+- Add isReadOnly() method to all YFunctions
+- Fix save/restore of thermistor settings
