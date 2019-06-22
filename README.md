@@ -19,13 +19,14 @@ See wiki page at https://gitlab.com/g-roch/yoctoweb/wikis/
 This project use a gitlab issues at https://gitlab.com/g-roch/yoctoweb/issues
 
 ## Features
-### WORK IN PROGRESS (isn't now usable)
+ - nothing for now, you can contribute
+
+## Todo
  - Statistics and graphics
  - Send command (ex: switch relay)
  - Simple add YoctoHub from web interface (autoconfiguration of the YoctoHub
      for network connexion to application and post data)
-### Features usable
- - nothing for now, you can contribute
+ - Write a [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## Dependance
 ### Sub-software
