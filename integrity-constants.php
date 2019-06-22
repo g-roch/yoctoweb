@@ -1,0 +1,23 @@
+<?php
+const STATIC_INTEGRITY = [
+'css/bootstrap.css' => 't4IGnnWtvYimgcRMiXD2ZD04g28Is9vYsVaHo5LcWWJkoQGmMwGg+QS0mYlhbVv3', 
+'css/bootstrap.css.map' => 'd/TboQaiW4bcj2QYfi/kmSegtKLo8doraah5YWPBL2+425NbSzBqYDe53p77ARfA', 
+'css/bootstrap-grid.css' => '5XWkC0mfBIMmreqUtfTPBSrK5ez30uvDZF1gDjKmnDC7DOA+u8MKCcYFB2AhR7VT', 
+'css/bootstrap-grid.css.map' => 'DNpeTr/P17Kgxw1Q/sK27whfurclw0Q1rrWcHNYwr7sw0cbxVZvWoAceC6fwHZRy', 
+'css/bootstrap-grid.min.css' => 'rCcl0/HQvbvpTrAC/9W17ZQ8hWQl3IaM/oJPOo8pJpBXRGPrTw9zaYtrsPeFDvfV', 
+'css/bootstrap-grid.min.css.map' => 'PDLU3WWukzWbFJm3B2MZXGmZTugdkNyXgV+My5oqBULjLAPpgPRl6JNheEH2vLbe', 
+'css/bootstrap.min.css' => 'ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T', 
+'css/bootstrap.min.css.map' => 'hzUHMzpEVowY1Ai3CazvqEwZqzlkl2lnKW2mutUnoRmdUhg+A6IutlUEiu0/vPcQ', 
+'css/bootstrap-reboot.css' => 'v3T2Yfsj8QGIdiLpkD4F9UZNRXrIK1jFJ8n1Rvmg8OXpAmomY7Tsl+GQCi/X31DT', 
+'css/bootstrap-reboot.css.map' => '0Cd7aXl5vGt/0xAMxsWV5U2B91F2SznpMWQ2YJNxMgL2N/BhPhaxhfiN+jg1gaLn', 
+'css/bootstrap-reboot.min.css' => 'JgTXdA8m6jQJl6b7RREAjSi0WcSVfGuqm0izZ5Dj63qOWikweWnaH8r9LGU28kMX', 
+'css/bootstrap-reboot.min.css.map' => '6uXl0r0Tk6zFiRRj9b/90NpVG1RjzIxtbvC3oWQzMYFQ+EsBI5moOthVS9Cl05c1', 
+'js/bootstrap.bundle.js' => 'szbKYgPl66wivXHlSpJF+CKDAVckMVnlGrP25Sndhe+PwOBcXV9LlFh4MUpRhjIB', 
+'js/bootstrap.bundle.js.map' => 'Sl+30FIzV3zcBWdWELO8OTCOuytofcfKp+AGmDJX16f+p0umQxaGm+HrngFwH7lY', 
+'js/bootstrap.bundle.min.js' => 'xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o', 
+'js/bootstrap.bundle.min.js.map' => 'KqO642vZ7s/kHemeJQ9vwohkzadz0MLZ7ziTtmcU/MGPh8ZVIh5FkzOloF3rdkMx', 
+'js/bootstrap.js' => 'rkSGcquOAzh5YMplX4tcXMuXXwmdF/9eRLkw/gNZG+1zYutPej7fxyVLiOgfoDgi', 
+'js/bootstrap.js.map' => '9KH0aHpvFqYdkJhmEqA9wwTD3+eNsVRzcnuoJ8iaBAMp7rZmX7GuqbBffrggKbov', 
+'js/bootstrap.min.js' => 'JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM', 
+'js/bootstrap.min.js.map' => 'z1i/AKRkhbYR/cneFxL+pbSLYFxW5Ryo9ya29wz/dgIcdIR56o1pCsbjDJ9TERhd', 
+];
